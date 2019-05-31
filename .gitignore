@@ -1,2 +1,6 @@
 shaka-player/
 *.mp4
+*.264
+*.m4s
+*.ts
+*log*

@@ -1,4 +1,4 @@
-var manifestUri = './media/master.m3u8';
+var manifestUri = './media/dash/manifest.mpd';
 var videoElementId = 'test';
 
 function initApp() {
