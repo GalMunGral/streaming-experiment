@@ -32,8 +32,8 @@ MP4Box -dash 4000 -frag 4000 -rap -segment-name segment_ -out manifest.mpd ../ou
 MP4Box -dash 4000 -frag 4000 -rap -segment-name audio_segment_ -out audio.mpd ../out.mp4#audio
 ```
 
-### Attemp 3: Still use FFmpeg to reencode
+### Attemp 3: Use FFmpeg to encode and MP4BOX to segment
 ```bash
-ffmpeg -i test.mp4 -vcodec libx264 -acodec aac -x264-params keyint=48:scenecut=0 out.mp4
+ffmpeg -i test.mp4 -vcodec libx264 -acodec aac -r 24 -x264-params keyint=48:scenecut=0 out.mp4
 MP4Box -dash 4000 -frag 4000 -rap -segment-name segment_ -out manifest.mpd ../out.mp4
 ```
