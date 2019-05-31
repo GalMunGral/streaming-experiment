@@ -1,4 +1,4 @@
-var manifestUri = 'http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8';
+var manifestUri = './media/master.m3u8';
 var videoElementId = 'test';
 
 function initApp() {
