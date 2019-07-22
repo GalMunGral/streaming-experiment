@@ -1,4 +1,4 @@
-## Client Side: Shaka by google 
+## Client Side: Shaka Player (by Google) 
 Build instructions: https://github.com/google/shaka-player/blob/master/docs/tutorials/welcome.md
 ```bash
 # Install prerequisites 
