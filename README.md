@@ -1,5 +1,5 @@
 ## Client Side: Shaka by google 
-To build (https://github.com/google/shaka-player/blob/master/docs/tutorials/welcome.md):
+Build instructions: https://github.com/google/shaka-player/blob/master/docs/tutorials/welcome.md
 ```bash
 # Install prerequisites 
 curl https://raw.githubusercontent.com/google/shaka-player/master/build/install-linux-prereqs.sh | bash
