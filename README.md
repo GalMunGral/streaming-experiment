@@ -1,3 +1,6 @@
+---
+path: /github/streaming-experiment
+---
 ## Client Side: Shaka Player (by Google )
 Offical build instructions: [[Link]](https://github.com/google/shaka-player/blob/master/docs/tutorials/welcome.md)
 ```bash
